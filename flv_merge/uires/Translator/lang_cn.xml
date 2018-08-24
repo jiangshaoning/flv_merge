@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="中文" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">
+    <message>
+      <source>ok</source>
+      <translation>确定</translation>
+    </message>
+    <message>
+      <source>cancel</source>
+      <translation>取消</translation>
+    </message>
+    <message>
+      <source>retry</source>
+      <translation>重试</translation>
+    </message>
+    <message>
+      <source>exit</source>
+      <translation>退出</translation>
+    </message>
+    <message>
+      <source>addflv_message</source>
+      <translation>请添加FLV文件！</translation>
+    </message>
+    <message>
+      <source>output_message</source>
+      <translation>请添加保存路径！</translation>
+    </message>
+    <message>
+      <source>open_failed</source>
+      <translation>打开失败！</translation>
+    </message>
+    <message>
+      <source>invalid_flv</source>
+      <translation>无效的FLV文件！</translation>
+    </message>
+    <message>
+      <source>check_failed</source>
+      <translation>校验失败！</translation>
+    </message>
+    <message>
+      <source>check_output</source>
+      <translation>请检查保存路径！</translation>
+    </message>
+    <message>
+      <source>all_done</source>
+      <translation>完成！</translation>
+    </message>
+    <message>
+      <source>exit_message</source>
+      <translation>确认退出？</translation>
+    </message>
+  </context>
+  <context name="dlg_main">
+    <message>
+      <source>close</source>
+      <translation>关闭</translation>
+    </message>
+    <message>
+      <source>lang_cn</source>
+      <translation>中文</translation>
+    </message>
+    <message>
+      <source>lang_eg</source>
+      <translation>英文</translation>
+    </message>
+    <message>
+      <source>flv_title</source>
+      <translation>flv合并工具</translation>
+    </message>
+    <message>
+      <source>output_path</source>
+      <translation>保存路径：</translation>
+    </message>
+    <message>
+      <source>flv list</source>
+      <translation>flv列表</translation>
+    </message>
+    <message>
+      <source>add flv</source>
+      <translation>添加flv</translation>
+    </message>
+    <message>
+      <source>remove flv</source>
+      <translation>删除选中flv</translation>
+    </message>
+    <message>
+      <source>clear list</source>
+      <translation>清除列表</translation>
+    </message>
+    <message>
+      <source>generate</source>
+      <translation>合并生成</translation>
+    </message>
+    <message>
+      <source>cancel</source>
+      <translation>取消</translation>
+    </message>
+    <message>
+      <source>exit</source>
+      <translation>退出</translation>
+    </message>
+  </context>
+</language>

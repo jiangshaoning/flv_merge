@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="英语" guid="{23D209C4-2268-49A2-B7F4-8CB57D908D47}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">
+    <message>
+      <source>ok</source>
+      <translation>ok</translation>
+    </message>
+    <message>
+      <source>cancel</source>
+      <translation>cancel</translation>
+    </message>
+    <message>
+      <source>retry</source>
+      <translation>retry</translation>
+    </message>
+    <message>
+      <source>exit</source>
+      <translation>exit</translation>
+    </message>
+    <message>
+      <source>addflv_message</source>
+      <translation>Please add FLV file!</translation>
+    </message>
+    <message>
+      <source>output_message</source>
+      <translation>Please add output path!</translation>
+    </message>
+    <message>
+      <source>open_failed</source>
+      <translation>open failed!</translation>
+    </message>
+    <message>
+      <source>invalid_flv</source>
+      <translation>invalid FLV file!</translation>
+    </message>
+    <message>
+      <source>check_failed</source>
+      <translation>check failed!</translation>
+    </message>
+    <message>
+      <source>check_output</source>
+      <translation>Please check the output path!</translation>
+    </message>
+    <message>
+    <source>all_done</source>
+    <translation>All done!</translation>
+    </message>
+    <message>
+      <source>exit_message</source>
+      <translation>Confirm Exit?</translation>
+    </message>
+  </context>
+  <context name="dlg_main">
+    <message>
+      <source>close</source>
+      <translation>close</translation>
+    </message>
+    <message>
+      <source>lang_cn</source>
+      <translation>Chinese</translation>
+    </message>
+    <message>
+      <source>lang_eg</source>
+      <translation>English</translation>
+    </message>
+    <message>
+      <source>flv_title</source>
+      <translation>flv merge</translation>
+    </message>
+    <message>
+      <source>output_path</source>
+      <translation>Output path:</translation>
+    </message>
+    <message>
+      <source>flv list</source>
+      <translation>flv list</translation>
+    </message>
+    <message>
+      <source>add flv</source>
+      <translation>Add flv</translation>
+    </message>
+    <message>
+      <source>remove flv</source>
+      <translation>Remove flv</translation>
+    </message>
+    <message>
+      <source>clear list</source>
+      <translation>Clear list</translation>
+    </message>
+    <message>
+      <source>generate</source>
+      <translation>Generate</translation>
+    </message>
+    <message>
+      <source>cancel</source>
+      <translation>Cancel</translation>
+    </message>
+    <message>
+      <source>exit</source>
+      <translation>Exit</translation>
+    </message>
+  </context>
+</language>

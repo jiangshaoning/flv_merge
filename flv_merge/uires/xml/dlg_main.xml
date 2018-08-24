@@ -1,0 +1,60 @@
+﻿<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="720" height="480"  margin="5,5,5,5"  resizable="1" wndType="appMain"
+appWnd="1"
+translucent="1" 
+trCtx="dlg_main"
+>
+  <root skin="_skin.bg" cache="1">
+    <caption pos="0,0,-0,30" show="1" font="adding:0">
+      <icon pos="10,8" src="ICON_LOGO:16"/>
+      <text pos="29,9">flv_title</text>
+      <imgbtn name="btn_close" skin="_skin.sys.btn.close"    pos="-45,0" tip="close" animate="1"/>
+      <imgbtn name="btn_max" skin="_skin.sys.btn.maximize"  pos="-83,0" animate="1" />
+      <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
+      <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1" />
+    </caption>
+    <window pos="10,[2,-10,-2">
+      
+      <group text="flv list" pos="0,0,-0,-150" padding="10,5,5,10">
+        <listbox name="flv_list" pos="0,0,-0,-40" hotTrack="1" class="cls_edit" colorBkgnd="#FFFFFF" itemHeight="30" colorText="#000000" colorSelText="#FFFFFF" colorItemBkgnd="#FFFFFF" colorItemSelBkgnd="#000088">
+          <items>
+          </items>
+        </listbox>
+        
+         <window pos="0,[10,-0,-0" layout="hbox">
+          <button size="0,-2"  weight="1" name="add_flv">add flv</button>
+          <button size="0,-2"  weight="1" name="remove_flv">remove flv</button>
+          <button size="0,-2"  weight="1" name="clear_list">clear list</button>
+        </window>     
+      </group>
+
+      <text pos="10, [10, @100, @30">output_path</text>
+      <edit pos="[10, {0, -50, @30" name="outfile_path" colorBkgnd="#FFFFFF"></edit>
+      <button pos="[10,{0,-0,@30" name="choose_path" focusable="0" text="..."/>
+      <progress pos="10,[20,-10, @25" name="merge_progress" value="0" min="0" max="100" showPercent="1" />
+      
+      <window pos="0,[20,-0,@30" layout="hbox">
+        <window size="0,-2"  weight="1">
+          <button pos="[10,{0,-0,30" name="btn_generate" focusable="0" text="generate"/>
+        </window>
+        <window size="0,-2"  weight="1">
+          <button pos="[10,{0,-0,30" name="btn_cancel" focusable="0" text="cancel"/> 
+        </window>
+        <window size="0,-2"  weight="1">
+          <button pos="[10,{0,-0,30"  name="btn_exit" focusable="0" text="exit"/>
+        </window>
+        <window size="0,-2"  weight="1">
+          <combobox name="cbx_language" pos="[10,{0,-0,30" dropDown="1" dropHeight="200" animateTime="200" class="cls_edit" colorBkgnd="#ffffff" curSel="0" focusable="0" >
+          <liststyle class="cls_edit" itemSkin="skin_tab_left" colorSelText="#FFFFFF" colorItemBkgnd="#0AB4FA" colorItemSelBkgnd="#000088" colorBkgnd="#ffffff">
+          </liststyle>
+          <editstyle inset="5,0,5,0" colorText="#000000" align="right" colorBkgnd="#FFFFFF"/>
+          <items>
+            <item text="lang_cn" />
+            <item text="lang_eg" />
+          </items>
+        </combobox>
+        </window>
+      </window>  
+     
+    </window>
+  </root>
+</SOUI>
